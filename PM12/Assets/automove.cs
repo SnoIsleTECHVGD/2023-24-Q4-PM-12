@@ -20,10 +20,10 @@ public class automove : MonoBehaviour
     {
         if (IsFacingRight())
         {
-            myRigidbody.velocity = new Vector2(moveSpeed, 0f);
+            myRigidbody.velocity = new Vector2(moveSpeed, myRigidbody.velocity.y);
         }else
         {
-            myRigidbody.velocity = new Vector2(-moveSpeed, 0f);
+            myRigidbody.velocity = new Vector2(-moveSpeed, myRigidbody.velocity.y);
         }
     }
     private bool IsFacingRight()
@@ -31,7 +31,7 @@ public class automove : MonoBehaviour
         return transform.localScale.x > Mathf.Epsilon;
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         transform.localScale = new Vector2(-(Mathf.Sign(myRigidbody.velocity.x)), transform.localScale.y);
     }
