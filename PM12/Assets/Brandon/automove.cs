@@ -28,7 +28,7 @@ public class automove : MonoBehaviour
     }
     private bool IsFacingRight()
     {
-        return transform.localScale.x > Mathf.Epsilon;
+        return transform.localScale.x > 0;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
