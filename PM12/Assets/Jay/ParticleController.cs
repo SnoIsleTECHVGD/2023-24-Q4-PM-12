@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ParticleController : MonoBehaviour
 {
+    [Header("Movement Particle")]
     [SerializeField] ParticleSystem movementParticle;
 
     [Range(0, 10)]
@@ -16,6 +17,9 @@ public class ParticleController : MonoBehaviour
 
     float counter;
     bool isOnGround;
+
+    [Header("")]
+    [SerializeField] ParticleSystem fallParticle;
 
     private void Update()
     {
@@ -31,12 +35,15 @@ public class ParticleController : MonoBehaviour
         }
     }
 
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Ground"))
         {
+            fallParticle.Play();
             isOnGround = true;
         }
+
     }
 
     private void OnTriggerExit2D(Collider2D collision)
