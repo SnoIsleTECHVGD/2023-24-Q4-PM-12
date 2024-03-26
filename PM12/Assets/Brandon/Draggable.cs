@@ -5,6 +5,12 @@ using UnityEngine;
 public class Draggable : MonoBehaviour
 {
     Vector3 mousePositionOffset;
+    float xPos;
+
+    private void Start()
+    {
+        xPos = transform.position.x;
+    }
 
     private Vector3 GetMouseWorldPosition()
     {
@@ -22,5 +28,6 @@ public class Draggable : MonoBehaviour
     private void OnMouseDrag()
     {
         transform.position = GetMouseWorldPosition() + mousePositionOffset;
+        transform.position = new Vector3(xPos, transform.position.y);
     }
 }
