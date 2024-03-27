@@ -28,11 +28,14 @@ public class automove : MonoBehaviour
     }
     private bool IsFacingRight()
     {
-        return transform.localScale.x > Mathf.Epsilon;
+        return transform.localScale.x > 0;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        transform.localScale = new Vector2(-(Mathf.Sign(myRigidbody.velocity.x)), transform.localScale.y);
+        if (collision.tag != "Swap")
+        {
+            transform.localScale = new Vector2(-(Mathf.Sign(myRigidbody.velocity.x)), transform.localScale.y);
+        }
     }
 }
