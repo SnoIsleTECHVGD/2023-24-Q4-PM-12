@@ -334,7 +334,7 @@ GameObject:
   - component: {fileID: 789852412}
   - component: {fileID: 789852411}
   m_Layer: 0
-  m_Name: Square
+  m_Name: NuNu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -381,7 +381,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1732028116, guid: 1de849695f456ee4e8da950b4fdba1e8, type: 3}
+  m_Sprite: {fileID: -148467896, guid: f85533faeb3bf6a408928df770bf63b5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -409,7 +409,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.057, y: 0.038}
+  m_AnchoredPosition: {x: 1.18, y: 0.85}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &789852409
@@ -441,7 +441,7 @@ Animation:
   m_GameObject: {fileID: 789852406}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 0}
+  m_Animation: {fileID: 7400000, guid: 2060ceddad64bf248964a05139604895, type: 2}
   m_Animations: []
   m_WrapMode: 0
   m_PlayAutomatically: 1
