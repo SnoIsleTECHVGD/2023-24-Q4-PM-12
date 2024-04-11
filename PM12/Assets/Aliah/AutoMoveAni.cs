@@ -36,7 +36,7 @@ public class AutoMoveAni : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag != "Swap")
+        if (collision.tag == "Swap")
         {
             transform.localScale = new Vector2(-(Mathf.Sign(nuRigidbody.velocity.x)), transform.localScale.y);
         }
