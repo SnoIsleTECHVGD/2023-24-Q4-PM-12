@@ -10,7 +10,7 @@ public class CreditSwitch : MonoBehaviour
         SceneManager.LoadScene("AliahCS");
     }
 
-    public void Start()
+    public void titleScreen()
     {
         SceneManager.LoadScene("MainLevel");
     }

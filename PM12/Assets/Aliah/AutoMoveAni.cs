@@ -38,7 +38,7 @@ public class AutoMoveAni : MonoBehaviour
     {
         if (collision.tag == "Swap")
         {
-            transform.localScale = new Vector2(-(Mathf.Sign(nuRigidbody.velocity.x)), transform.localScale.y);
+            transform.localScale = new Vector2(-Mathf.Sign(nuRigidbody.velocity.x), transform.localScale.y);
         }
     }
 }
