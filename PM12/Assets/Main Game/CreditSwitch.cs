@@ -5,14 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class CreditSwitch : MonoBehaviour
 {
-    public void Credits()
-    {
-        SceneManager.LoadScene("AliahCS");
-    }
-
     public void titleScreen()
     {
         SceneManager.LoadScene("MainLevel");
+    }
+    public void Credits()
+    {
+        SceneManager.LoadScene("AliahCS");
     }
 
     public void Credits2()
@@ -28,5 +27,14 @@ public class CreditSwitch : MonoBehaviour
     public void Credits4()
     {
         SceneManager.LoadScene("BrandonCS");
+    }
+    public void OnApplicationQuit()
+    {
+        Application.Quit();
+    }
+
+    public void Menu()
+    {
+        SceneManager.LoadScene("Title Screen");
     }
 }
