@@ -15,4 +15,18 @@ public class CreditSwitch : MonoBehaviour
         SceneManager.LoadScene("MainLevel");
     }
 
+    public void Credits2()
+    {
+        SceneManager.LoadScene("JonasCS");
+    }
+
+    public void Credits3()
+    {
+        SceneManager.LoadScene("JayCS");
+    }
+
+    public void Credits4()
+    {
+        SceneManager.LoadScene("BrandonCS");
+    }
 }
