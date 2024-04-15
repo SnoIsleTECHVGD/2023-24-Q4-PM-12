@@ -3,17 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Swap
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Wallcheck
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Platform
+  - tm1
+  - tm2
   - 
   - 
   - 
