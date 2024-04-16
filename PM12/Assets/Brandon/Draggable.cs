@@ -9,17 +9,21 @@ public class Draggable : MonoBehaviour
     float xPos;
     public bool lockY;
     float yPos;
+    public bool lockZ;
+    float zPos;
+    public float dragmultiplier = 1;
 
     private void Start()
     {
         xPos = transform.position.x;
         yPos = transform.position.y;
+        zPos = transform.position.z;
     }
 
     private Vector3 GetMouseWorldPosition()
     {
         // Capture mouse positon & return worldPoint
-        return Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        return Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.nearClipPlane));
     }
 
 
@@ -34,5 +38,6 @@ public class Draggable : MonoBehaviour
         transform.position = GetMouseWorldPosition() + mousePositionOffset;
         if (lockX) transform.position = new Vector3(xPos, transform.position.y);
         if (lockY) transform.position = new Vector3(transform.position.x, yPos);
+        if (lockZ) transform.position = new Vector3(transform.position.x, transform.position.y, zPos);
     }
 }
