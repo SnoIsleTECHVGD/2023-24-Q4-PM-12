@@ -21,4 +21,8 @@ public class JumpPad : MonoBehaviour
             intervalStrength = Mathf.Clamp(intervalStrength, 0, maxHeight);
         }
     }
+    public void JumpReset()
+    {
+        intervalStrength = 0;
+    }
 }
