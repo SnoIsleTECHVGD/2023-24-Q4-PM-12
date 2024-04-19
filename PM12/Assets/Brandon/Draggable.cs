@@ -12,12 +12,13 @@ public class Draggable : MonoBehaviour
     public bool lockZ;
     float zPos;
     public float dragmultiplier = 1;
-
+    Rigidbody2D RB2D;
     private void Start()
     {
         xPos = transform.position.x;
         yPos = transform.position.y;
         zPos = transform.position.z;
+        RB2D = GetComponent<Rigidbody2D>();
     }
 
     private Vector3 GetMouseWorldPosition()
@@ -36,9 +37,9 @@ public class Draggable : MonoBehaviour
 
     private void OnMouseDrag()
     {
-        transform.position = GetMouseWorldPosition() + mousePositionOffset;
-        if (lockX) transform.position = new Vector3(xPos, transform.position.y);
-        if (lockY) transform.position = new Vector3(transform.position.x, yPos);
-        if (lockZ) transform.position = new Vector3(transform.position.x, transform.position.y, zPos);
+        RB2D.position = GetMouseWorldPosition() + mousePositionOffset;
+        if (lockX) RB2D.position = new Vector3(xPos, RB2D.position.y);
+        if (lockY) RB2D.position = new Vector3(RB2D.position.x, yPos);
+        if (lockZ) RB2D.position = new Vector3(RB2D.position.x, RB2D.position.y, zPos);
     }
 }
