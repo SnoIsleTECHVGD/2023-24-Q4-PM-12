@@ -5,7 +5,8 @@ using UnityEngine;
 public class CamMovement : MonoBehaviour
 {
     private float speed = 5.0f;
-    public GameObject character;
+    public GameObject characterLocation;
+    public Vector2 maxDistance;
 
     void Update()
     {
@@ -45,6 +46,9 @@ public class CamMovement : MonoBehaviour
         {
             transform.position += Vector3.up * speed * Time.deltaTime;
         }
+        Vector2 distanceFromCharacter = characterLocation.transform.position - transform.position;
+        if (distanceFromCharacter.x > maxDistance.x) transform.position = new Vector3(transform.position.x - (distanceFromCharacter.x - maxDistance.x), transform.position.y);
+        
     }
 }
 
