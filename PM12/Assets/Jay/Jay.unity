@@ -5629,7 +5629,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementParticle: {fileID: 12405575}
   occurAfterVelocity: 1
-  dustFormationPeriod: 0.05
+  dustFormationPeriod: 0.08
   playerRb: {fileID: 163939102}
   fallParticle: {fileID: 1155403631}
 --- !u!1 &865180854
