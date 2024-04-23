@@ -24,19 +24,20 @@ public class JumpOnClick : MonoBehaviour
             player.GetComponent<Rigidbody2D>().AddForce(Vector2.up * bouNce + new Vector2(intervalStrength * strengthOverTime, intervalStrength * strengthOverTime), ForceMode2D.Impulse);
         }
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject == player)
         {
             nunuOnTop = true;
         }
     }
-
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject == player)
         {
             nunuOnTop = false;
         }
     }
+    
 }
