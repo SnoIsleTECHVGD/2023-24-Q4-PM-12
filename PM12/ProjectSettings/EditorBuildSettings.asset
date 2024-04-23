@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Jay/Jay.unity
     guid: e608e9c806541de4b9728e07f97c10fd
   - enabled: 0
-    path: Assets/Main Game/PuzzleTutorials/Tutorial.unity
+    path: Assets/Main Game/PuzzleTutorials/TutorialJumpPad.unity
     guid: 61fbb65e7864a2e4aaadf6280b753c4f
   - enabled: 1
     path: Assets/Main Game/Title Screen.unity
@@ -30,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Main Game/Credit Scenes/JonasCS.unity
     guid: 054009fbdc7fe7a4cabb76512a8aa29a
   - enabled: 1
-    path: Assets/Main Game/MainLevel.unity
+    path: Assets/Main Game/PuzzleTutorials/TutorialPlatform.unity
     guid: bd69bb7a73305ca4e85f05eebfc3c3ea
   - enabled: 1
     path: Assets/Main Game/Lose Screen.unity

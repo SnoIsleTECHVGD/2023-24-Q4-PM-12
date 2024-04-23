@@ -7,7 +7,7 @@ public class CreditSwitch : MonoBehaviour
 {
     public void titleScreen()
     {
-        SceneManager.LoadScene("MainLevel");
+        SceneManager.LoadScene("TutorialPlatform");
     }
     public void Credits()
     {
