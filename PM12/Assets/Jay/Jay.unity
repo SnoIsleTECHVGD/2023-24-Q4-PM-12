@@ -10110,7 +10110,7 @@ GameObject:
   - component: {fileID: 290648183}
   - component: {fileID: 290648182}
   m_Layer: 0
-  m_Name: RiftTest1
+  m_Name: ParticleTest1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14905,7 +14905,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 290648181}
   m_LocalRotation: {x: -1, y: 0, z: 0, w: 0}
-  m_LocalPosition: {x: -8.07, y: 3.7099996, z: 14.06}
+  m_LocalPosition: {x: -23.28, y: 6.37, z: 14.06}
   m_LocalScale: {x: 6, y: 2, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Main Game/Title Screen.unity
     guid: ab6a6fa1c16657c41a90329d1ac4ce40
   - enabled: 1
+    path: Assets/Aliah/LevelTest.unity
+    guid: d900fb35b905f4748b6618fc794748b0
+  - enabled: 1
     path: Assets/Main Game/Credit Scenes/AliahCS.unity
     guid: c66c645c06a9dda4fb0a032cc9195ab1
   - enabled: 1
