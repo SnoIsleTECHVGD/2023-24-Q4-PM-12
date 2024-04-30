@@ -21065,7 +21065,7 @@ Tilemap:
       - {fileID: 804420202, guid: cfad2138920cc62438d1bf2487d0697b, type: 3}
       - {fileID: -394203016, guid: cfad2138920cc62438d1bf2487d0697b, type: 3}
       - {fileID: -1077487498, guid: cfad2138920cc62438d1bf2487d0697b, type: 3}
-      m_AnimationSpeed: 12.000001
+      m_AnimationSpeed: 12
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 14, y: 5, z: 0}
@@ -21077,7 +21077,7 @@ Tilemap:
       - {fileID: 804420202, guid: cfad2138920cc62438d1bf2487d0697b, type: 3}
       - {fileID: -394203016, guid: cfad2138920cc62438d1bf2487d0697b, type: 3}
       - {fileID: -1077487498, guid: cfad2138920cc62438d1bf2487d0697b, type: 3}
-      m_AnimationSpeed: 12.000001
+      m_AnimationSpeed: 12
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 15, y: 5, z: 0}
@@ -22326,7 +22326,7 @@ Animator:
   m_GameObject: {fileID: 871894958}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b077288cec452e941aa8b1fbab00ab72, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -32299,13 +32299,15 @@ GameObject:
   - component: {fileID: 1897774277}
   - component: {fileID: 1897774276}
   - component: {fileID: 1897774275}
+  - component: {fileID: 1897774279}
+  - component: {fileID: 1897774278}
   m_Layer: 0
   m_Name: Field2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1897774275
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32399,6 +32401,41 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1897774278
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897774274}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 607a94e6c81b2df45860ec86431a54a1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!111 &1897774279
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897774274}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 54de385d299049341b0c5d5df3b368e6, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1001 &1941285329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32725,7 +32762,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5193551491820373127, guid: 542d720eaf53852459d52df0300ef5ab, type: 3}
       propertyPath: m_SortingOrder
-      value: 20
+      value: 56
       objectReference: {fileID: 0}
     - target: {fileID: 5193551491820373128, guid: 542d720eaf53852459d52df0300ef5ab, type: 3}
       propertyPath: m_RootOrder
