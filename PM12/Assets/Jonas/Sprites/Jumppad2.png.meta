@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 778042bbca63e3149bf8eb285e9dcda7
+guid: 318a1663fc019fc41a0d59030002d93b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,57 +129,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: forcefield4_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 16
-        width: 64
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -32, y: 8}
-        - {x: -32, y: -8}
-        - {x: 32, y: -8}
-        - {x: 32, y: 8}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27b994ef394c8834cb4d948b0395da3e
-      internalID: 83795669
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: forcefield4_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -32, y: 8}
-        - {x: -32, y: -8}
-        - {x: 32, y: -8}
-        - {x: 32, y: 8}
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb09177d580087344a052b0057f70b27
-      internalID: -1899099278
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -190,9 +140,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      forcefield4_0: 83795669
-      forcefield4_1: -1899099278
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
