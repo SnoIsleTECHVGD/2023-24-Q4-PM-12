@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: Jumppad1
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 1258386888, guid: 318a1663fc019fc41a0d59030002d93b, type: 3}
+  - {fileID: 2092792952, guid: 318a1663fc019fc41a0d59030002d93b, type: 3}
+  - {fileID: 377279603, guid: 318a1663fc019fc41a0d59030002d93b, type: 3}
+  - {fileID: 1145588794, guid: 318a1663fc019fc41a0d59030002d93b, type: 3}
+  - {fileID: 282936806, guid: 318a1663fc019fc41a0d59030002d93b, type: 3}
+  - {fileID: 2081181026, guid: 318a1663fc019fc41a0d59030002d93b, type: 3}
+  m_MinSpeed: 9
+  m_MaxSpeed: 9
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
