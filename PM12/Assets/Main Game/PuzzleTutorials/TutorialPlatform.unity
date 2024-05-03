@@ -13664,12 +13664,16 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3370397399171040328, guid: bcfba114ec49a8d49b2c5ff02bf80f6f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3370397399171040328, guid: bcfba114ec49a8d49b2c5ff02bf80f6f, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5192024
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3370397399171040328, guid: bcfba114ec49a8d49b2c5ff02bf80f6f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.18
+      value: 6.5
       objectReference: {fileID: 0}
     - target: {fileID: 3370397399171040328, guid: bcfba114ec49a8d49b2c5ff02bf80f6f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13707,17 +13711,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3370397399171040331, guid: bcfba114ec49a8d49b2c5ff02bf80f6f, type: 3}
-      propertyPath: m_Color.b
-      value: 0.9433962
+    - target: {fileID: 3370397399171040330, guid: bcfba114ec49a8d49b2c5ff02bf80f6f, type: 3}
+      propertyPath: m_Size.x
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3370397399171040331, guid: bcfba114ec49a8d49b2c5ff02bf80f6f, type: 3}
-      propertyPath: m_Color.g
-      value: 0.5562478
+      propertyPath: m_Size.x
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3370397399171040331, guid: bcfba114ec49a8d49b2c5ff02bf80f6f, type: 3}
-      propertyPath: m_Color.r
-      value: 0.7283138
+      propertyPath: m_DrawMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3370397399171040331, guid: bcfba114ec49a8d49b2c5ff02bf80f6f, type: 3}
       propertyPath: m_SortingOrder
