@@ -8,6 +8,7 @@ public class AutoMoveAni : MonoBehaviour
 
     Rigidbody2D nuRigidbody;
     BoxCollider2D nuBoxCollider;
+    public AudioSource audioPlayer;
 
     void Start()
     {
@@ -36,9 +37,18 @@ public class AutoMoveAni : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.gameObject.tag == "CollisionSoundAudio")
+            audioPlayer.Play();
         if (collision.tag == "Swap")
         {
             transform.localScale = new Vector2(-Mathf.Sign(nuRigidbody.velocity.x), transform.localScale.y);
         }
+    }
+
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "CollisionSoundAudio")
+            audioPlayer.Play();
     }
 }

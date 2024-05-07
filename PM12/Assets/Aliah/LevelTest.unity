@@ -11734,7 +11734,7 @@ Tilemap:
       - {fileID: 804420202, guid: cfad2138920cc62438d1bf2487d0697b, type: 3}
       - {fileID: -394203016, guid: cfad2138920cc62438d1bf2487d0697b, type: 3}
       - {fileID: -1077487498, guid: cfad2138920cc62438d1bf2487d0697b, type: 3}
-      m_AnimationSpeed: 12
+      m_AnimationSpeed: 12.000001
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 15, y: 5, z: 0}
@@ -24202,10 +24202,18 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 9095536688393358741}
     m_Modifications:
+    - target: {fileID: 707143965121901829, guid: 698b70fc15d2c774180bd5d3d6ed22b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.07
+      objectReference: {fileID: 0}
     - target: {fileID: 707143965814045331, guid: 698b70fc15d2c774180bd5d3d6ed22b8, type: 3}
       propertyPath: playerRb
       value: 
       objectReference: {fileID: 9095536688393358750}
+    - target: {fileID: 707143965814045331, guid: 698b70fc15d2c774180bd5d3d6ed22b8, type: 3}
+      propertyPath: dustFormationPeriod
+      value: 0.161
+      objectReference: {fileID: 0}
     - target: {fileID: 707143965814045332, guid: 698b70fc15d2c774180bd5d3d6ed22b8, type: 3}
       propertyPath: m_Name
       value: Particles
